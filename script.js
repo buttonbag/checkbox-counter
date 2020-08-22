@@ -8,6 +8,7 @@ function countChecked() {
     count++;
     counter.value = count;
     console.log(count + ' checked');
+    console.log("checkbox " + this.dataset["number"]);
   } else if(!this.checked) {
     count--;
     console.log(count + ' checked');
